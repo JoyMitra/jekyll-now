@@ -7,14 +7,14 @@ To undertsand the internals of an Android app, it often helps if one can step th
 
 1. Install the app onto an Android device. Connect the device to a PC via USB and run the following commands:
 
-  Get the _<package name>_ of the app you want to analyze.
-  `$ adb shell pm list packages`
+    Get the _<package name>_ of the app you want to analyze.
+    `$ adb shell pm list packages`
 
-  Get the _<apk path>_ where the _<package name>_ is installed.
-  `$ adb shell pm path <package name>`
+    Get the _<apk path>_ where the _<package name>_ is installed.
+    `$ adb shell pm path <package name>`
   
-  Transfer the apk file to PC.
-  `$ adb pull <apk path> /path/to/where/you/want/apk`
+    Transfer the apk file to PC.
+    `$ adb pull <apk path> /path/to/where/you/want/apk`
 
 2.  Use [ApkTool](https://ibotpeaches.github.io/Apktool/) to decompile the apk. This will give _smali_ code which is the assembler for the _Dalvik Virtual Machine_.
 
