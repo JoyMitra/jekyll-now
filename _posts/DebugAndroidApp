@@ -3,7 +3,8 @@ layout: post
 title: Debug an Android app!
 ---
 
-To undertsand the internals of an Android app, it often helps if one can step through its source code just like you would do when developing the app. Follow the following steps to successfully re-engineer and debug an Android app.
+To undertsand the internals of an Android app, it often helps if one can step through its source code just like you would do when developing the app. But if all you have is the apk for the app then debugging it becomes quite a task. 
+In following steps I enumerate what it takes to successfully re-engineer and debug an Android app from its apk.
 
 1. Install the app onto an Android device. Connect the device to a PC via USB and run the following commands:
 
